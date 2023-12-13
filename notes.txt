@@ -1,0 +1,13 @@
+* JavaScript me hm 'var' keyword ko jyada use nhi krenge.
+    var - > variable can be re-declared and updated.
+* hm sirf 'let' aur 'const' ka hii use krenge.
+    let -> variable cannot be re-declared but can be updated.
+    const -> variable cannot be re-declared or updated.
+
+* pair of {} defines a single block. iske bich me likha code usi block me chalta hai.
+* {} block ke andr ek defined variable ko update nhi kr skte. sidha dusra block bnao.
+
+*object -> ek collection of data or keys hota hai.
+    objects ke andar keyss hoti hai.
+    object ka datatype 'const' ho fir bhi keys ko change kra ja skta hai.
+     
