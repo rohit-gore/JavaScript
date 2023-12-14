@@ -10,4 +10,8 @@
 *object -> ek collection of data or keys hota hai.
     objects ke andar keyss hoti hai.
     object ka datatype 'const' ho fir bhi keys ko change kra ja skta hai.
+
+*arithmetic operators me 2 unary operators hote hai:
+    1. Increment : ++
+    2. Decrement : --
      
