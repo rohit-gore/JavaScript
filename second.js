@@ -63,9 +63,10 @@ let res = age >= 18 ? "Adult" : "not Adult"; // compact if-else
 console.log(res);
 
 // practice Qs - 1:
-let num = prompt("enter a number");
-if(num % 5 === 0){
-    console.log(num, "is a multiple of 5");
-}else{
-    console.log(num, "is not a multiple of 5");
-}
+// let num = prompt("enter a number");
+// if(num % 5 === 0){
+//     console.log(num, "is a multiple of 5");
+// }else{
+//     console.log(num, "is not a multiple of 5");
+// } 
+// chalane ke liye uncomment kr dena
