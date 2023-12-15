@@ -69,6 +69,12 @@ let upc = s.toUpperCase();
 console.log(upc);
 let loc = s.toLowerCase();
 console.log(loc);
+// trim method --> removes white spaces from starting and ending, not in b/w the words.
+// string.slice(start, end?) --> returns part of string, end is non-inclusive
+// string1.concat(string2) [or] (string1 + string2) --> joins string2 with string1
+// string.replace(searchVal, newVal) 
+// string.replaceAll(searchVal, newVal) 
+// string.charAt(index) --> return character at that index
 
 // TEMPLATE LITERALS:
 // a way to have embedded expressions in strings
