@@ -43,3 +43,11 @@ let student = {
 for(let i in student){
     console.log(i);
 }
+
+// practice 1:
+// let n = 100;
+// for(let i = 0; i<= 100; i++){
+//     if(i % 2 === 0){
+//         console.log(i);
+//     }
+// }

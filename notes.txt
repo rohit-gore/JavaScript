@@ -14,4 +14,7 @@
 *arithmetic operators me 2 unary operators hote hai:
     1. Increment : ++
     2. Decrement : --
+
+* 'prompt' me jb bhi koi input dalte hai .. vo hmesha string ke form me return krta hai.
+    too == wala comparison operator use hoga === wala nhi.
      
