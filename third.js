@@ -51,3 +51,33 @@ for(let i in student){
 //         console.log(i);
 //     }
 // }
+
+/* STRINGS IN JS */
+
+let s = "javascript";
+console.log(s);
+
+// string length
+let len = s.length;
+console.log(len);
+
+// string indices
+console.log(s[0]);
+
+// TEMPLATE LITERALS:
+// a way to have embedded expressions in strings
+// we use backtick(` `) here. Ex: `This is a template literal`
+// we use it to create strings by doing substitution of placeholders called string interpolation.
+// `string text ${expression} string text`
+
+// Example : real life use, difference b/w normal way of printing and printing using template literals.
+let obj = {
+    pen : "pen",
+    price : 10,
+};
+// normal way of printing:
+console.log("The cost of", obj.pen, "is", obj.price, "rupees");
+// using template literala
+console.log(`The cost of ${obj.pen} is ${obj.price} rupees`);
+// in output you can see that the '10' is not highlighted because now it is part of the string itself.
+
