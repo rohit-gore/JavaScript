@@ -53,8 +53,8 @@ for(let i in student){
 // }
 
 /* STRINGS IN JS */
-
-let s = "javascript";
+// strings are immutable in JS, unke andr koi change nhi kr skte
+let s = "JavaScript";
 console.log(s);
 
 // string length
@@ -63,6 +63,12 @@ console.log(len);
 
 // string indices
 console.log(s[0]);
+
+// string methods --> original string (s) ko kbhi change nhi kiya jayega. uski ek copy bnake changes kiye jate hai.
+let upc = s.toUpperCase();
+console.log(upc);
+let loc = s.toLowerCase();
+console.log(loc);
 
 // TEMPLATE LITERALS:
 // a way to have embedded expressions in strings
@@ -80,4 +86,8 @@ console.log("The cost of", obj.pen, "is", obj.price, "rupees");
 // using template literala
 console.log(`The cost of ${obj.pen} is ${obj.price} rupees`);
 // in output you can see that the '10' is not highlighted because now it is part of the string itself.
+
+// Escape characters:
+// '/n' -> takes to new line
+// '/t' -> adds tab space
 
