@@ -17,4 +17,11 @@
 
 * 'prompt' me jb bhi koi input dalte hai .. vo hmesha string ke form me return krta hai.
     too == wala comparison operator use hoga === wala nhi.
-     
+    
+* property vs methods:
+    properties -> bss kuch value de deti hai.
+    methods -> kuch kaam bhi krte hai.
+
+* string are immutable, too hme pta hai vo change nhi hoti, aur hmesha sare operation nyi string pr hii hote hai.
+    arrays me kuch methods usi array me change kr dete hai, kuch methods nayi array return krte hai.
+
