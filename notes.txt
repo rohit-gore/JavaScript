@@ -25,3 +25,12 @@
 * string are immutable, too hme pta hai vo change nhi hoti, aur hmesha sare operation nyi string pr hii hote hai.
     arrays me kuch methods usi array me change kr dete hai, kuch methods nayi array return krte hai.
 
+* redundancy -> technical word which means repeation, code me redundancy ana accha nhi hai.
+
+* JavaScript me hm ek function ko dusre function me pass kr skte hai as an argument
+    uski ko hm callBack function bhi kehte hai
+    isiiye JS me function special ko kaam ki chiz hai.
+
+* Higher Order Function / methods :
+    Ye vo functions hote hai jo dusre functions ko as a parameter le lete hai ya fir usko return krte hai.
+    
