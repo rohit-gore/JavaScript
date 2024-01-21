@@ -34,3 +34,8 @@
 * Higher Order Function / methods :
     Ye vo functions hote hai jo dusre functions ko as a parameter le lete hai ya fir usko return krte hai.
     
+* console.log --> print
+  console.dir --> document --> properties, methods ko print krta hai.
+
+* HTML ko JS ke andr access kr skte hai by:
+    window -> document(model / DOM)
