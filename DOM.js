@@ -32,5 +32,8 @@ Window Object:
 
 // Properties :
 /*
-1. tagName : 
+1. tagName : returns tag for elements nodes
+2. innerText : returns the text content of the element and all it's children
+3. innerHTML : returns the plain text or HTML contents in the element
+4. textContent : returns textual content even for hidden elements
 */
