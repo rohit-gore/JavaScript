@@ -37,3 +37,27 @@ Window Object:
 3. innerHTML : returns the plain text or HTML contents in the element
 4. textContent : returns textual content even for hidden elements
 */
+
+// Attributes :
+/*
+1. getAttributes(attr) --> to get the attribute value
+2. setAttribute(attr, value) --> to set attribute value
+*/
+
+// Style :
+// 1. node.style --> Ex : div.style --> inline style dekhne ke kaam ata hai.
+
+// Insert Elements :
+/*
+the query --> let el = document.createElement("div");
+1. node.append(el) --> to add at the end of the node(inside)
+2. node.prepend(el) --> adds at the start of the node(inside)
+3. node.before(el) --> adds before the node(outside)
+4. node.after(el) --> adds after the node(outside)
+*/
+
+// Delete Elements:
+/*
+1. node.remove() --> remove the node
+
+*/
