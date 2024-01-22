@@ -43,3 +43,25 @@ node.event = (e) => {
 }
 eg: e.target, e.type, e.clientX, e.clientY etc.
 */
+
+btn1. onclick = (evt) => {
+    console.log(evt);
+    console.log(evt.type);
+    console.log(evt.target);
+    console.log(evt.clientX, evt.clientY);
+}
+
+// Event Listeners:
+/*
+node.addEventListeners(event, callback)
+node.removeEventListener(event, callback)  --> event remove ho jata hai.
+*Note : the callback reference should be same to remove
+
+Same event ke liye multiple eventlisteners use kr skte hai, hmesha eventlisteners hii use krenge.
+*/
+
+btn1.addEventListener("click", (evt) => {
+    console.log("ye addEventListeners hai");
+    console.log(evt.type);
+    console.log(evt.target);
+})
