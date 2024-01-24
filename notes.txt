@@ -39,3 +39,7 @@
 
 * HTML ko JS ke andr access kr skte hai by:
     window -> document(model / DOM)
+
+* Jb hm ek Object bnate hai too uske andr by default ek Object hota hai jisme
+    sare methods hote hai(ex: push, pop, insert) is default object ko Prototype kehte hai.
+    aur hmari jitni bhi Objects hoti JS me vo apne Prototypes se methods inherit krte hai.
