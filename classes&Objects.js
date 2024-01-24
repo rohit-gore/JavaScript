@@ -72,5 +72,3 @@ console.log(car);
 let car2 = new toyota("prius", 50); 
 console.log(car2);
 // even if we don't pass a argument the constructor will give undefined.
-
-
