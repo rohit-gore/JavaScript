@@ -28,3 +28,7 @@ setTimeout(Hello, 3000); // here we are calling hello function in another functi
 // Nested callbacks stacked below one another forming a pyramid structure.(pyramid of Doom)
 // This style of programming becomes difficult to understand & manage.
 
+// ******************** Promises *******************
+// Promises are for "eventual" completion of task. it is an object in JS.
+// It is a solution to callback hell.
+
